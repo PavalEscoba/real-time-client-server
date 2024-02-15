@@ -1,10 +1,15 @@
 import React from 'react';
+// import LongPolling from './LongPolling';
+import EventSourcing from './EventSourcing';
+import Websockets from './Websockets';
 import './app.css';
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      {/* <LongPolling /> */}
+      {/* <EventSourcing /> */}
+      <Websockets />
     </div>
   );
 }
